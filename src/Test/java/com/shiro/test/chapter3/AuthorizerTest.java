@@ -1,5 +1,6 @@
-package com.shiro.test;
+package com.shiro.test.chapter3;
 
+import com.shiro.test.Common.BaseTest;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -9,7 +10,7 @@ import org.junit.Test;
  * Date : 2018-02-26
  * Time : 16:22
  */
-public class AuthorizerTest extends BaseTest{
+public class AuthorizerTest extends BaseTest {
     @Test
     public void testIsPermitted() {
         login("classpath:shiro-authorizer.ini", "zhang", "123");

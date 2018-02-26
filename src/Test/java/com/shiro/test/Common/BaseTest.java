@@ -1,4 +1,4 @@
-package com.shiro.test;
+package com.shiro.test.Common;
 
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.UsernamePasswordToken;
@@ -13,7 +13,7 @@ import org.apache.shiro.util.Factory;
  * Date : 2018-02-26
  * Time : 16:22
  */
-public abstract class BaseTest {
+public class BaseTest {
     public void login(String configFile, String userName, String password) {
         //1、获取SecurityManager工厂，此处使用Ini配置文件初始化SecurityManager
         Factory factory =
