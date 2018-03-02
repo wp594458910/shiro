@@ -1,0 +1,2 @@
+insert into users(username, password, password_salt) values('wu', 'a9a114054aa6758184314fbb959fbda4', null);
+insert into users(username, password, password_salt) values('liu', 'a9a114054aa6758184314fbb959fbda4', '24520ee264eab73ec09451d0e9ea6aac');

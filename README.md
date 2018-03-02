@@ -14,4 +14,6 @@ Apache Shiro 是一个强大易用的 Java 安全框架，提供了认证、授�
 
 - [编码加密](https://github.com/wp594458910/shiro/blob/master/doc/5.md)
 
+- [Realm](https://github.com/wp594458910/shiro/blob/master/doc/6.md)
+
 
